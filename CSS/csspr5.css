@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 50%;
+    height: 50%;
+}
+
+h1::before{
+    /* content: "!!"; */
+    content: "hahahaha";
+    background-color: black;
+}
+
+h1::after{
+    content: "haahaha";
+    /* content: "!!"; */
+    background-color: black;
+}
+/* This is the properties that you will see when you select the heading... */
+h1::selection{
+    background-color: orange;
+}
+
+p::first-line{
+    font-size: 1em;
+    background-color: aqua;
+    color: red;
+}
+
+/* This is the properties that you will see when you select the lines in paragraph ... */
+p::selection{
+    background-color: yellow;
+    color: black;
+}
