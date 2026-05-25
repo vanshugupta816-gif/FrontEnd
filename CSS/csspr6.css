@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 20%;
+    height: 20%;
+}
+
+h1{
+    display:inline;
+}
+
+a{
+    display: block;
+}
