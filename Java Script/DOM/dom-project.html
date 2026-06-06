@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .err {
+            color:red;
+        }
+        .success {
+            color: green;
+        }
+        .preview {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h2>User Registeration</h2>
+    <form id="userForm">
+        <label>Name:</label>
+        <input type="text" name="nameInput" id="" />
+        <br /><br />
+
+        <label>
+        <input type="checkbox"  id="subscribe" />
+        Subscribe to genieashwani
+        </label>
+        <br /><br />
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="preview" class="preview"></div>
+    <script src="dom.js"></script>
+</body>
+</html>
